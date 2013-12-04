@@ -1,0 +1,8 @@
+{
+  "name": "node-markup.js-express",
+  "description": "A markup.js (https://github.com/adammark/Markup.js/) template engine implementation for express",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=0.10.21"
+  }
+}
