@@ -1,5 +1,5 @@
 {
-  "name": "node-markup.js-express",
+  "name": "markup.js-express",
   "description": "A markup.js (https://github.com/adammark/Markup.js/) template engine implementation for express",
   "author": "Christian Katzorke <ckatzorke@gmail.com",
   "version": "0.0.0",

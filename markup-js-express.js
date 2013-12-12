@@ -25,11 +25,12 @@ var markupjsexpress = (function() {
 			templateExtension = extension || templateExtension;
 			var renderer = function(template, options, callback) {
 				util.log("Rendering '" + template + "' with " + JSON.stringify(options));
+				/*
 				var viewDirectory = dir || options.settings.views;
 				var viewExtension = '.' + (templateExtension || options.settings['view engine']);
 				var file = viewDirectory + "/" + template + viewExtension;
-
-				loadTemplate(file, function(err, data) {
+				*/
+				loadTemplate(template, function(err, data) {
 					if (err) {
 						return callback(err);
 					}
